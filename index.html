@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SosialBook</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c040242d64.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="imge/logo.png" class="logo" alt="" />
+        <ul>
+          <li><img src="imge/notification.png" alt="" /></li>
+          <li><img src="imge/inbox.png" alt="" /></li>
+          <li><img src="imge/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="imge/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <div class="nav-usericon online" onclick="settingMenuToggle()">
+          <img src="imge/profile-pic.png" alt="" />
+        </div>
+      </div>
+      <!----------- settings-menu------------- -->
+      <div class="settings-menu">
+
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="setting-menu-inner">
+          <div class="user-profile">
+            <img src="imge/profile-pic.png" alt="" />
+            <div>
+              <p>Jhon Nicholosn</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="imge/feedback.png" alt="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+
+          <!-- setting icon menu  -->
+          <div class="settings-links">
+            <img src="imge/setting.png" alt="" class="settings-icon" />
+            <a href="#">
+              Setting & pravicy <img src="imge/arrow.png" alt="" width="10px"
+            /></a>
+          </div>
+
+          <div class="settings-links">
+            <img src="imge/help.png" alt="" class="settings-icon" />
+            <a href="#">
+              Help & support <img src="imge/arrow.png" alt="" width="10px"
+            /></a>
+          </div>
+
+          <div class="settings-links">
+            <img src="imge/display.png" alt="" class="settings-icon" />
+            <a href="#">
+              Display & accessibility
+              <img src="imge/arrow.png" alt="" width="10px"
+            /></a>
+          </div>
+
+          <div class="settings-links">
+            <img src="imge/logout.png" alt="" class="settings-icon" />
+            <a href="#">
+              Logout <img src="imge/arrow.png" alt="" width="10px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!----------- lift-sidbatr------------- -->
+      <div class="left-sidbar">
+        <div class="imp-links">
+          <a href="#"><img src="imge/news.png" alt="" />Latest Newse</a>
+          <a href="#"><img src="imge/friends.png" alt="" />Friends</a>
+          <a href="#"><img src="imge/group.png" alt="" />Group</a>
+          <a href="#"><img src="imge/marketplace.png" alt="" />Marketplace</a>
+          <a href="#"><img src="imge/watch.png" alt="" />Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Scortcuts</p>
+          <a href="#"><img src="imge/shortcut-1.png" alt="" />Web Developers</a>
+          <a href="#"
+            ><img src="imge/shortcut-2.png" alt="" />Web Desing course</a
+          >
+          <a href="#"
+            ><img src="imge/shortcut-3.png" alt="" />Full Stack Developpment
+          </a>
+          <a href="#"
+            ><img src="imge/shortcut-4.png" alt="" />Website Experts</a
+          >
+        </div>
+      </div>
+      <!----------- main-content------------- -->
+      <div class="main-content">
+        <div class="story-gallry">
+          <div class="story story1">
+            <img src="imge/upload.png" alt="" />
+            <p>Post Story</p>
+          </div>
+
+          <div class="story story2">
+            <img src="imge/member-1.png" alt="" />
+            <p>Alison</p>
+          </div>
+
+          <div class="story story3">
+            <img src="imge/member-2.png" alt="" />
+            <p>Jackson</p>
+          </div>
+
+          <div class="story story4">
+            <img src="imge/member-3.png" alt="" />
+            <p>Samono</p>
+          </div>
+
+          <div class="story story5">
+            <img src="imge/member-4.png" alt="" />
+            <p>John Dos</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="imge/profile-pic.png" alt="" />
+            <div>
+              <p>Jhon Nicholosn</p>
+              <small>public <i class="fa-solid fa-download"></i> </small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="What's your mind your jhon?"
+            ></textarea>
+
+            <div class="add-post-link">
+              <a href="#"><img src="imge/live-video.png" alt="" />Live Video</a>
+              <a href="#"><img src="imge/photo.png" alt="" />Photo/Video</a>
+              <a href="#"
+                ><img src="imge/feeling.png" alt="" />Feeling/Activety</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="imge/profile-pic.png" alt="" />
+              <div>
+                <p>Jhon Nicholosn</p>
+                <span>24 jun 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Fllow the Github account <span>Rajeev-uk07</span> to watch the more
+            Project sourse code , (Website Development and UI Designs)
+            <a href="#">@RajeevUk07</a>
+            <a href="#">#Youtube</a>
+          </p>
+          <img src="imge/feed-image-1.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="imge/like-blue.png" alt="" />120</div>
+              <div><img src="imge/comments.png" alt="" />45</div>
+              <div><img src="imge/share.png" alt="" />25</div>
+            </div>
+            <div class="post-perofil-icon">
+              <img src="imge/profile-pic.png" alt="" />
+              <i class="fa-solid fa-download"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="imge/profile-pic.png" alt="" />
+              <div>
+                <p>Jhon Nicholosn</p>
+                <span>13 july 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Like and share this video with ferinds , tag
+            <span>Rajeev-uk07</span> facbook page on your post Ask your doubut's
+            in the comment's box Project sourse code , (Website Development and
+            UI Designs)
+            <a href="#">@RajeevUk07</a>
+            <a href="#">#Youtube</a>
+          </p>
+          <img src="imge/feed-image-2.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="imge/like.png" alt="" />120</div>
+              <div><img src="imge/comments.png" alt="" />45</div>
+              <div><img src="imge/share.png" alt="" />25</div>
+            </div>
+            <div class="post-perofil-icon">
+              <img src="imge/profile-pic.png" alt="" />
+              <i class="fa-solid fa-download"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="imge/profile-pic.png" alt="" />
+              <div>
+                <p>Jhon Nicholosn</p>
+                <span>13 july 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Like and share this video with ferinds , tag
+            <span>Rajeev-uk07</span> facbook page on your post Ask your doubut's
+            in the comment's box Project sourse code , (Website Development and
+            UI Designs)
+            <a href="#">@RajeevUk07</a>
+            <a href="#">#Youtube</a>
+          </p>
+          <img src="imge/feed-image-3.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="imge/like.png" alt="" />120</div>
+              <div><img src="imge/comments.png" alt="" />45</div>
+              <div><img src="imge/share.png" alt="" />25</div>
+            </div>
+            <div class="post-perofil-icon">
+              <img src="imge/profile-pic.png" alt="" />
+              <i class="fa-solid fa-download"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="imge/profile-pic.png" alt="" />
+              <div>
+                <p>Jhon Nicholosn</p>
+                <span>13 july 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Like and share this video with ferinds , tag
+            <span>Rajeev-uk07</span> facbook page on your post Ask your doubut's
+            in the comment's box Project sourse code , (Website Development and
+            UI Designs)
+            <a href="#">@RajeevUk07</a>
+            <a href="#">#Youtube</a>
+          </p>
+          <img src="imge/feed-image-4.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="imge/like.png" alt="" />120</div>
+              <div><img src="imge/comments.png" alt="" />45</div>
+              <div><img src="imge/share.png" alt="" />25</div>
+            </div>
+            <div class="post-perofil-icon">
+              <img src="imge/profile-pic.png" alt="" />
+              <i class="fa-solid fa-download"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="imge/profile-pic.png" alt="" />
+              <div>
+                <p>Jhon Nicholosn</p>
+                <span>13 july 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Like and share this video with ferinds , tag
+            <span>Rajeev-uk07</span> facbook page on your post Ask your doubut's
+            in the comment's box Project sourse code , (Website Development and
+            UI Designs)
+            <a href="#">@RajeevUk07</a>
+            <a href="#">#Youtube</a>
+          </p>
+          <img src="imge/feed-image-5.png" alt="" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="imge/like.png" alt="" />120</div>
+              <div><img src="imge/comments.png" alt="" />45</div>
+              <div><img src="imge/share.png" alt="" />25</div>
+            </div>
+            <div class="post-perofil-icon">
+              <img src="imge/profile-pic.png" alt="" />
+              <i class="fa-solid fa-download"></i>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="lode-more-btn">Lode More</button>
+      </div>
+
+      <!-----------right-sidbar------------- -->
+      <div class="right-sidbar">
+        <div class="sidbar-titel">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>march</span>
+          </div>
+          <div class="right-event">
+            <h4>Sosial Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Willson tack park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>july</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobil markting</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Willson tack park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidbar-titel">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="imge/advertisement.png" alt="" class="sidbar-adds" />
+
+        <div class="sidbar-titel">
+          <h4>Conversation</h4>
+          <a href="#">Heid Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="imge/member-1.png" alt="" />
+          </div>
+          <p>Annu Kumari</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="imge/member-2.png" alt="" />
+          </div>
+          <p>Rakesh sagar</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="imge/member-3.png" alt="" />
+          </div>
+          <p>Bharti Kumari</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>copyright 2021 - Coder-uk07 #YouTube Chanel</p>
+    </div>
+<script src="script.js"></script>
+  </body>
+</html>
